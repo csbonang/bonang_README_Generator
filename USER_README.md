@@ -1,13 +1,13 @@
 
-## sdflk
+## manual testing
 
 # Developer's Profile
 [GitHub](https://github.com/bonang8)
 # License 
-![GitHub license](https://img.shields.io/badge/license-APACHE 2.0-blue.svg)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 ## Description 
-sldf
+testing to see if project works
 ------------------
 ## Table of Content
 -------------------
@@ -20,22 +20,22 @@ sldf
 
 ## Installation 
 To install the necessary dependencies, run the following command: 
-lskdfsj
+npm i
 
 
 ## Usage 
-sldfl
+know commands
 
 ## License 
-[License](https://opensource.org/licenses/APACHE 2.0)
+[GPL v3 License](https://www.gnu.org/licenses/gpl-3.0)
 
 
 ## Contributing 
-sdf
+just notify me
 
 ## Tests
 To run tests, run the following command: 
-sdlfl
+npm tests
 
 ## Contact me
 Feel free to reach out 
