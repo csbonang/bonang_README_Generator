@@ -54,7 +54,7 @@ const questions = [
   }, 
   {
     type:"input",
-    message:"What does the user need to know about contributing to the repo",
+    message:"What does the user need to know about contributing to the repo? ",
     name:"contributeInfo"
   }, 
 
@@ -68,15 +68,15 @@ function gatherInput()
 .then(function({GitHubUserName, emailAddress, projectName, projectDescription, projectLicense, installCommand, runCommand, repoInfo, contributeInfo}){
 var readmeSyntax = `
 ## ${projectName}
+${getBadge(projectLicense)}
 
 # Developer's Profile
 [GitHub](https://github.com/${GitHubUserName})
-# License 
-${getBadge(projectLicense)}
-
+ 
 ## Description 
+-------------------
 ${projectDescription}
-------------------
+
 ## Table of Content
 -------------------
 * [Installation](#installation)
@@ -105,9 +105,6 @@ ${contributeInfo}
 To run tests, run the following command: 
 ${runCommand}
 
-## Contact me
-Feel free to reach out 
-
 ## Questions 
 If you have any questions about the repo, open an issue or contact me directly
 at csgbonang@gmail.com. You can find more at [csbonang](https://github.com/csbonang). 
@@ -125,6 +122,7 @@ at csgbonang@gmail.com. You can find more at [csbonang](https://github.com/csbon
 
 }
 
+// getBadge: generates the badge link per license type 
 function getBadge(licenseType)
 {
   switch(licenseType)
@@ -147,6 +145,7 @@ function getBadge(licenseType)
   
 }
 
+// getBadge: generates the license link per license type 
 function generateLicenseLink(licenseType)
 {
   switch(licenseType){
