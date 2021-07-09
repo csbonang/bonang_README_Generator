@@ -1,7 +1,7 @@
 # bonang_README_Generator
 
 <b>Programmer: Clarisse Bonang
-Deployed link: 
+
 </b>
 
 ## Description 
